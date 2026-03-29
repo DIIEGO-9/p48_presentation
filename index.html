@@ -3,32 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Propuesta Digital | Pico y Chao</title>
+    <title>Propuesta Digital | Proyecto P-48</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
-        .glass { background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(12px); }
-        .bg-gradient-pico { background: radial-gradient(circle at top right, rgba(16, 185, 129, 0.1), transparent); }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); }
     </style>
 </head>
-<body class="bg-[#0b0f1a] text-slate-200 selection:bg-emerald-500/30">
+<body class="bg-[#0f172a] text-slate-200 selection:bg-indigo-500/30">
 
-    <nav class="fixed w-full z-50 border-b border-white/5 glass">
+    <nav class="fixed w-full z-50 border-b border-white/10 glass">
         <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            
             <div class="flex items-center gap-3 text-xl font-bold tracking-tighter text-white">
-                <div class="w-10 h-10 bg-emerald-600 rounded-xl flex items-center justify-center shadow-lg shadow-emerald-500/20 rotate-3">
-                    <i class="fas fa-fire-alt text-white text-lg"></i>
+                <div class="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center shadow-lg shadow-indigo-500/20">
+                    <i class="fas fa-utensils text-white text-lg"></i>
                 </div>
-                <span class="uppercase italic">PICO Y <span class="text-emerald-500">CHAO</span></span>
+                <span>PROYECTO <span class="text-indigo-500">P-48</span></span>
             </div>
 
-            <div class="hidden md:flex items-center gap-8 text-xs font-bold uppercase tracking-widest">
-                <a href="#inicio" class="text-slate-400 hover:text-emerald-400 transition-colors">Proyecto</a>
-                <a href="#solucion" class="text-slate-400 hover:text-emerald-400 transition-colors">Estrategia</a>
-                <a href="#cotizacion" class="px-5 py-2.5 bg-emerald-600 text-white rounded-full hover:bg-emerald-500 transition-all shadow-xl shadow-emerald-600/10 active:scale-95">
-                    Ver Inversión
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="#inicio" class="text-slate-300 hover:text-indigo-400 transition-colors">Inicio</a>
+                <a href="#solucion" class="text-slate-300 hover:text-indigo-400 transition-colors">Solución</a>
+                <a href="#mantenimiento" class="text-slate-300 hover:text-indigo-400 transition-colors">Soporte</a>
+                <a href="#cotizacion" class="ml-4 px-5 py-2.5 bg-white text-slate-900 rounded-full hover:bg-indigo-50 transition-all font-bold shadow-xl shadow-white/5 active:scale-95">
+                    Ver Propuesta
                 </a>
             </div>
 
@@ -38,183 +39,207 @@
         </div>
     </nav>
 
-    <section id="inicio" class="relative pt-40 pb-24 overflow-hidden bg-gradient-pico">
-        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-emerald-500/5 blur-[120px] rounded-full -z-10"></div>
+    <section id="inicio" class="relative pt-40 pb-24 overflow-hidden">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[600px] bg-indigo-500/10 blur-[120px] rounded-full -z-10"></div>
         <div class="max-w-5xl mx-auto px-6 text-center">
-            <span class="inline-block px-4 py-1.5 mb-6 text-[10px] font-extrabold tracking-[0.2em] text-emerald-400 uppercase bg-emerald-500/10 border border-emerald-500/20 rounded-full">
-                Sabor de Manizales • Evolución Digital
+            <span class="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-indigo-400 uppercase bg-indigo-500/10 border border-indigo-500/20 rounded-full">
+                Tu Respaldo Digital en Manizales
             </span>
-            <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-8 tracking-tight leading-[1.1]">
-                Llevamos el sabor de <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-400 italic">Pico y Chao</span> al siguiente nivel.
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-8 tracking-tight">
+                Transformamos P-48 en una <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">vitrina digital.</span>
             </h1>
-            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-12 leading-relaxed font-light">
-                No es solo una web, es tu canal de ventas 24/7. Optimizamos la forma en que tus clientes piden sus picadas favoritas en San Jorge.
-            </p>
+            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+De local físico a autoridad digital. Ayudamos a los negocios de Manizales a evolucionar, escalar y liderar en internet con estrategias digitales que sí traen resultados            </p>
             <div class="flex flex-wrap justify-center gap-4">
-                <div class="flex items-center gap-2 px-5 py-3 bg-white/5 border border-white/10 rounded-2xl">
-                    <i class="fas fa-check-double text-emerald-500"></i>
-                    <span class="text-sm font-medium">Menú Interactivo</span>
+                <div class="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-lg">
+                    <i class="fas fa-check-circle text-indigo-500"></i>
+                    <span class="text-sm">Menu digital</span>
                 </div>
-                <div class="flex items-center gap-2 px-5 py-3 bg-white/5 border border-white/10 rounded-2xl">
-                    <i class="fas fa-motorcycle text-emerald-500"></i>
-                    <span class="text-sm font-medium">Pedidos Directos</span>
+                <div class="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-lg">
+                    <i class="fas fa-check-circle text-indigo-500"></i>
+                    <span class="text-sm">Información completa de la empresa</span>
                 </div>
-                <div class="flex items-center gap-2 px-5 py-3 bg-white/5 border border-white/10 rounded-2xl">
-                    <i class="fas fa-images text-emerald-500"></i>
-                    <span class="text-sm font-medium">Vitrina de Antojo</span>
+                <div class="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-lg">
+                    <i class="fas fa-check-circle text-indigo-500"></i>
+                    <span class="text-sm">Contacto redirigido</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="solucion" class="py-20 bg-slate-900/30">
+    <section id="solucion" class="py-20 bg-slate-900/50">
         <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
             <div class="relative group">
-                <div class="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-[2rem] blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
-                <div class="relative bg-slate-950 p-12 rounded-[2rem] border border-white/10 text-center">
-                    <div class="w-20 h-20 bg-emerald-500/10 text-emerald-500 rounded-3xl flex items-center justify-center text-4xl mb-6 mx-auto rotate-6">
-                        <i class="fas fa-comment-slash"></i>
+                <div class="absolute -inset-1 bg-gradient-to-r from-red-500 to-orange-500 rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-1000"></div>
+                <div class="relative bg-slate-900 p-12 rounded-2xl border border-white/10 flex flex-col items-center text-center">
+                    <div class="w-20 h-20 bg-red-500/10 text-red-500 rounded-full flex items-center justify-center text-4xl mb-6">
+                        <i class="fas fa-clock-rotate-left"></i>
                     </div>
-                    <h3 class="text-2xl font-bold text-white mb-4">¿Muchos chats y pocas ventas?</h3>
-                    <p class="text-slate-400 italic text-sm leading-relaxed">
-                        Responder precios y enviar fotos por WhatsApp quita tiempo valioso. El cliente quiere rapidez y claridad para calmar el hambre.
-                    </p>
+                    <div class="absolute top-10 right-10 text-4xl text-red-500/20 -rotate-12">
+                        <i class="fas fa-ban"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">¿Cansados de enviar el menú por WhatsApp mil veces?</h3>
+                    <p class="text-slate-400 italic">Los PDFs son lentos, pesados y matan la experiencia del cliente.</p>
                 </div>
             </div>
+            <div class="max-w-2xl w-full space-y-8 bg-slate-900/50 p-10 rounded-[2rem] border border-slate-800 shadow-2xl">
+        
+        <div class="space-y-2">
+            <h2 class="text-4xl font-bold text-white tracking-tight">
+                El tiempo de tu equipo <span class="text-indigo-400">vale oro</span>
+            </h2>
+            <p class="text-slate-400 text-lg">Optimiza cada interacción y convierte conversaciones en ventas reales.</p>
+        </div>
 
-            <div class="space-y-10">
-                <div class="space-y-4">
-                    <h2 class="text-4xl font-extrabold text-white tracking-tight">
-                        Eficiencia que se <span class="text-emerald-500 italic text-3xl">traduce en ventas</span>
-                    </h2>
-                    <p class="text-slate-400 text-lg font-light">Convertimos la curiosidad del cliente en un pedido confirmado en segundos.</p>
+        <ul class="grid gap-8">
+            <li class="flex items-start gap-5 group">
+                <div class="mt-1 w-12 h-12 rounded-2xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 shrink-0 border border-indigo-500/20 group-hover:bg-indigo-500 group-hover:text-white transition-all duration-300">
+                    <i class="fas fa-clock text-lg"></i>
                 </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-white mb-1">Contacto directo a WhatsApp sin complicaciones</h3>
+                    <p class="text-slate-400 leading-relaxed">Redirección directa con mensaje predeterminado del pedido que eligió el cliente desde la página web.</p>
+                </div>
+            </li>
 
-                <div class="grid gap-6">
-                    <div class="flex items-start gap-4 p-4 rounded-2xl hover:bg-white/5 transition-all group">
-                        <div class="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 shrink-0 border border-emerald-500/20 group-hover:bg-emerald-500 group-hover:text-white transition-all">
-                            <i class="fab fa-whatsapp text-xl"></i>
-                        </div>
-                        <div>
-                            <h3 class="font-bold text-white">WhatsApp Inteligente</h3>
-                            <p class="text-slate-400 text-sm">El cliente arma su picada en la web y te llega el pedido ya listo al chat.</p>
-                        </div>
-                    </div>
-                    <div class="flex items-start gap-4 p-4 rounded-2xl hover:bg-white/5 transition-all group">
-                        <div class="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 shrink-0 border border-emerald-500/20 group-hover:bg-emerald-500 group-hover:text-white transition-all">
-                            <i class="fas fa-bolt text-xl"></i>
-                        </div>
-                        <div>
-                            <h3 class="font-bold text-white">Carga Ultra-Rápida</h3>
-                            <p class="text-slate-400 text-sm">Sin descargar PDFs pesados. Tu menú abre al instante en cualquier celular.</p>
-                        </div>
-                    </div>
+            <li class="flex items-start gap-5 group">
+                <div class="mt-1 w-12 h-12 rounded-2xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 shrink-0 border border-indigo-500/20 group-hover:bg-indigo-500 group-hover:text-white transition-all duration-300">
+                    <i class="fas fa-hubspot text-lg"></i>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-white mb-1">Centralización Inteligente</h3>
+                    <p class="text-slate-400 leading-relaxed">Control total de las ventas en un solo lugar, sin desorden de teléfonos personales.</p>
+                </div>
+            </li>
+
+            <li class="flex items-start gap-5 group">
+                <div class="mt-1 w-12 h-12 rounded-2xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 shrink-0 border border-indigo-500/20 group-hover:bg-indigo-500 group-hover:text-white transition-all duration-300">
+                    <i class="fas fa-bolt text-lg"></i>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-white mb-1">Respuestas Instantáneas</h3>
+                    <p class="text-slate-400 leading-relaxed">Adiós a los PDFs pesados. Tus clientes consultan tu menú o catálogo directamente en la página, de forma rápida y ligera.</p>
+                </div>
+            </li>
+        </ul>
+
+        <div class="pt-6 border-t border-slate-800 space-y-3">
+            <div class="flex items-center gap-3 text-sm text-emerald-400/80">
+                <i class="fas fa-check-circle"></i>
+                <span>Evita que los clientes se pierdan por no ver precios claros.</span>
+            </div>
+            <div class="flex items-center gap-3 text-sm text-emerald-400/80">
+                <i class="fas fa-check-circle"></i>
+                <span>Elimina la fricción de descarga de archivos pesados.</span>
+            </div>
+        </div>
+    </div>
+        </div>
+    </section>
+
+    <section class="py-24 max-w-7xl mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-16 text-white">Tu nueva vitrina digital 24/7</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="md:col-span-2 p-8 rounded-3xl bg-gradient-to-br from-indigo-600 to-indigo-800 border border-white/10 shadow-2xl relative overflow-hidden group">
+                <div class="relative z-10">
+                    <h4 class="text-2xl font-bold text-white mb-4">Visibilidad Total</h4>
+                    <p class="text-indigo-100 max-w-sm">Tu menú disponible incluso cuando P-48 está cerrado. Genera antojo a cualquier hora.</p>
+                </div>
+                <i class="fas fa-mobile-screen absolute bottom-[-20px] right-8 text-[120px] text-white/10 group-hover:translate-y-[-10px] transition-transform"></i>
+            </div>
+            <div class="p-8 rounded-3xl bg-white/5 border border-white/10 hover:border-indigo-500/50 transition-all">
+                <i class="fas fa-location-dot text-3xl text-indigo-500 mb-6"></i>
+                <h4 class="text-xl font-bold text-white mb-2">Acceso Directo</h4>
+                <p class="text-slate-400 text-sm">Botones de WhatsApp y menú claro para encontrarte en San Jorge en un segundo.</p>
+            </div>
+            <div class="p-8 rounded-3xl bg-white/5 border border-white/10 hover:border-indigo-500/50 transition-all">
+                <i class="fas fa-check-double text-3xl text-indigo-500 mb-6"></i>
+                <h4 class="text-xl font-bold text-white mb-2">Cero Errores</h4>
+                <p class="text-slate-400 text-sm">Precios y productos siempre actualizados. Sin confusiones para el cliente.</p>
+            </div>
+            <div class="md:col-span-2 p-8 rounded-3xl bg-white/5 border border-white/10 flex items-center justify-between overflow-hidden">
+                <div>
+                    <h4 class="text-2xl font-bold text-white mb-2">Nivel Premium</h4>
+                    <p class="text-slate-400">P-48 a la altura de las grandes cadenas de comida.</p>
+                </div>
+                <div class="flex gap-2">
+                    <div class="w-12 h-12 rounded-full bg-indigo-500 flex items-center justify-center"><i class="fas fa-star text-white"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mantenimiento" class="py-20 bg-indigo-600/5 border-y border-indigo-500/10">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <div class="w-16 h-16 bg-indigo-500 rounded-2xl flex items-center justify-center mx-auto mb-8 shadow-xl shadow-indigo-500/20">
+                <i class="fas fa-screwdriver-wrench text-2xl text-white"></i>
+            </div>
+            <h2 class="text-3xl font-bold text-white mb-4">"Tú cocinas, nosotros nos encargamos de la tecnología"</h2>
+            <p class="text-slate-400 mb-12">Paz mental total con nuestro servicio de mantenimiento mensual.</p>
+            
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="p-4 bg-slate-900 border border-white/5 rounded-xl">
+                    <p class="text-sm font-semibold text-white">Precios al instante</p>
+                </div>
+                <div class="p-4 bg-slate-900 border border-white/5 rounded-xl">
+                    <p class="text-sm font-semibold text-white">Nuevas fotos</p>
+                </div>
+                <div class="p-4 bg-slate-900 border border-white/5 rounded-xl">
+                    <p class="text-sm font-semibold text-white">Hosting Seguro</p>
+                </div>
+                <div class="p-4 bg-slate-900 border border-white/5 rounded-xl">
+                    <p class="text-sm font-semibold text-white">Soporte 24/7</p>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="cotizacion" class="py-24 max-w-4xl mx-auto px-6">
-        <div class="bg-white rounded-[3rem] p-8 md:p-16 shadow-[0_32px_64px_-16px_rgba(0,0,0,0.5)] relative overflow-hidden">
-            <div class="absolute top-0 right-0 w-40 h-40 bg-emerald-50 rounded-bl-full -z-0"></div>
+        <div class="bg-white rounded-[2.5rem] p-8 md:p-12 shadow-2xl overflow-hidden relative">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-indigo-100 rounded-bl-full -z-0"></div>
+            <h2 class="text-3xl font-bold text-slate-900 mb-8 relative">Inversión Transparente</h2>
             
-            <header class="mb-12 relative">
-                <h2 class="text-4xl font-black text-slate-900 mb-2">Inversión del Proyecto</h2>
-                <p class="text-slate-500 font-medium">Propuesta exclusiva para Pico y Chao - 2026</p>
-            </header>
-            
-            <div class="space-y-6 relative">
-                <div class="flex flex-col md:flex-row md:items-center justify-between p-6 rounded-3xl bg-slate-50 border border-slate-100 group hover:border-emerald-500/30 transition-all">
-                    <div>
-                        <h4 class="font-extrabold text-slate-900 text-lg uppercase tracking-tight">Diseño & Desarrollo</h4>
-                        <p class="text-sm text-slate-500">Página web completa con menú autogestionable.</p>
-                    </div>
-                    <div class="mt-4 md:mt-0 text-left md:text-right">
-                        <span class="block text-2xl font-black text-emerald-600">$500.000</span>
-                        <span class="text-[10px] uppercase font-bold text-slate-400">Pago único inicial</span>
-                    </div>
-                </div>
+            <table class="w-full text-left border-collapse relative">
+                <thead>
+                    <tr class="border-b-2 border-slate-100">
+                        <th class="py-4 text-slate-500 font-semibold uppercase text-xs tracking-wider">Concepto</th>
+                        <th class="py-4 text-right text-slate-500 font-semibold uppercase text-xs tracking-wider">Inversión</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-100">
+                    <tr>
+                        <td class="py-6">
+                            <p class="font-bold text-slate-900">Desarrollo y Diseño Web</p>
+                            <p class="text-sm text-slate-500">Pago único, entrega llave en mano.</p>
+                        </td>
+                        <td class="py-6 text-right font-bold text-indigo-600 text-xl">$500.000</td>
+                    </tr>
+                    <tr>
+                        <td class="py-6">
+                            <p class="font-bold text-slate-900">Mantenimiento y Actualizaciones</p>
+                            <p class="text-sm text-slate-500">Soporte mensual todo incluido.</p>
+                        </td>
+                        <td class="py-6 text-right font-bold text-indigo-600 text-xl">$30.000<span class="text-xs text-slate-400 ml-1">/mes</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 
-                <div class="flex flex-col md:flex-row md:items-center justify-between p-6 rounded-3xl bg-slate-50 border border-slate-100 group hover:border-emerald-500/30 transition-all">
-                    <div>
-                        <h4 class="font-extrabold text-slate-900 text-lg uppercase tracking-tight">Soporte & Hosting</h4>
-                        <p class="text-sm text-slate-500">Actualización de precios y mantenimiento técnico.</p>
-                    </div>
-                    <div class="mt-4 md:mt-0 text-left md:text-right">
-                        <span class="block text-2xl font-black text-emerald-600">$30.000<span class="text-sm text-slate-400">/mes</span></span>
-                        <span class="text-[10px] uppercase font-bold text-slate-400">Suscripción mensual</span>
-                    </div>
+    <section class="pb-32 pt-10 text-center px-6">
+        <h2 class="text-3xl font-bold text-white mb-8">¿Empezamos a digitalizar P-48 hoy mismo?</h2>
+        <div class="flex flex-col items-center gap-6">
+            <div class="p-4 bg-white rounded-2xl inline-block shadow-lg">
+                <div class="w-50 h-50 bg-slate-100 rounded-lg flex items-center justify-center border-2 border-dashed border-slate-200">
+                    <img src="image.jpeg" alt="">
                 </div>
-            </div>
-
-            <div class="mt-12 p-6 bg-emerald-600 rounded-3xl text-center shadow-lg shadow-emerald-600/20">
-                <p class="text-emerald-100 text-sm font-medium mb-4 italic">"Transformemos el antojo en una experiencia digital inolvidable."</p>
-                <a href="https://wa.me/573217182031" class="inline-block w-full py-4 bg-white text-emerald-600 rounded-2xl font-black uppercase tracking-widest hover:scale-[1.02] transition-transform">
-                    ¡Comenzar Ahora!
-                </a>
+                <p class="text-[10px] text-slate-400 mt-2 uppercase font-bold tracking-tighter">Escanea para ver el DEMO</p>
             </div>
         </div>
     </section>
 
-    <section id="qr-experience" class="py-20 max-w-5xl mx-auto px-6">
-    <div class="relative group">
-        <div class="absolute -inset-1 bg-gradient-to-r from-emerald-600 to-teal-500 rounded-[3rem] blur opacity-10 group-hover:opacity-25 transition duration-700"></div>
-        
-        <div class="relative bg-slate-900/50 border border-white/10 rounded-[3rem] p-8 md:p-16 flex flex-col md:flex-row items-center gap-12">
-            
-            <div class="w-full md:w-1/3 flex flex-col items-center">
-                <div class="relative p-6 bg-white rounded-[2.5rem] shadow-2xl shadow-emerald-500/20 group-hover:scale-105 transition-transform duration-500">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-emerald-500 shadow-[0_0_15px_rgba(16,185,129,0.8)] animate-[bounce_3s_infinite] rounded-full z-10"></div>
-                    
-                    <div class="w-48 h-48 bg-slate-100 rounded-2xl flex items-center justify-center border-2 border-dashed border-slate-200 overflow-hidden">
-                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://picoychao.com" alt="QR Menú Digital" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity">
-                    </div>
-                </div>
-                <p class="mt-6 text-[10px] font-black uppercase tracking-[0.3em] text-emerald-500">Escanea el Demo</p>
-            </div>
-
-            <div class="w-full md:w-2/3 text-center md:text-left space-y-6">
-                <div class="inline-flex items-center gap-2 px-3 py-1 bg-emerald-500/10 border border-emerald-500/20 rounded-full">
-                    <span class="relative flex h-2 w-2">
-                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                        <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-                    </span>
-                    <span class="text-[10px] font-bold text-emerald-400 uppercase tracking-widest">Tecnología Sin Contacto</span>
-                </div>
-                
-                <h2 class="text-3xl md:text-5xl font-extrabold text-white tracking-tight leading-none">
-                    Tu menú en la mesa <br>con <span class="text-emerald-500 italic font-light">un solo clic.</span>
-                </h2>
-                
-                <p class="text-slate-400 text-lg font-light leading-relaxed">
-                    Instalamos códigos QR estratégicos en tus mesas en San Jorge. El cliente escanea, se antoja y pide directamente. 
-                    <span class="text-white font-semibold">Menos espera, más rotación de mesas.</span>
-                </p>
-
-                <div class="grid grid-cols-2 gap-4 pt-4">
-                    <div class="flex items-center gap-3">
-                        <i class="fas fa-microchip text-emerald-500 text-xl"></i>
-                        <span class="text-xs font-bold text-slate-300 uppercase">Fácil de usar</span>
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <i class="fas fa-leaf text-emerald-500 text-xl"></i>
-                        <span class="text-xs font-bold text-slate-300 uppercase">Cero Papel</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-    <footer class="py-12 border-t border-white/5 text-center">
-        <div class="flex items-center justify-center gap-2 mb-4 opacity-50">
-            <div class="w-1 h-1 bg-emerald-500 rounded-full"></div>
-            <div class="w-1 h-1 bg-emerald-500 rounded-full"></div>
-            <div class="w-1 h-1 bg-emerald-500 rounded-full"></div>
-        </div>
-        <p class="text-slate-600 text-[11px] uppercase tracking-[0.4em] font-bold">
-            © 2026 Aliados Digitales • Manizales • Caldas
-        </p>
+    <footer class="py-10 border-t border-white/5 text-center text-slate-500 text-sm">
+        <p>&copy; 2026 Aliados Digitales Manizales. Hecho para P-48.</p>
     </footer>
 
 </body>
